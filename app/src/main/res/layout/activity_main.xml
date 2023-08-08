@@ -8,22 +8,25 @@
     tools:context=".MainActivity">
 
 
-   <Button
-       android:id="@+id/btn_tasbeh"
+   <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:id="@+id/bottom_navigation_view"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:text="tasbeh"
-       android:padding="20dp"
        android:textSize="22sp"
-       android:backgroundTint="#B7935F"
+       style="@style/IslamiBottomNavigationStyle"
+       app:menu="@menu/bottom_navigation_view_menu"
+       app:itemIconSize="42dp"
+       app:itemActiveIndicatorStyle="@null"
+       app:itemIconTint="@color/bottom_navigation_color_selector"
+       app:itemTextColor="@color/bottom_navigation_color_selector"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintBottom_toBottomOf="parent"
        />
     <FrameLayout
-        android:id="@+id/fragment_container"
+        android:id="@+id/islami_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@id/btn_tasbeh"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation_view"
         app:layout_constraintTop_toTopOf="parent"
         />
 

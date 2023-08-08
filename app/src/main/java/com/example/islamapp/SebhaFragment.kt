@@ -17,6 +17,7 @@ class SebhaFragment : Fragment() {
     lateinit var txtThker:TextView
     lateinit var theker:ArrayList<String>
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -36,9 +37,11 @@ class SebhaFragment : Fragment() {
         var counter=0
         var timer=1
         sebha.setOnClickListener{
+
             if (Integer.parseInt(editCounter.text.toString()) < 33){
                 counter++
                 editCounter.text=counter.toString()
+                sebha.rotation += 11.1f
             }else{
                 counter=0
                 editCounter.text=counter.toString()
