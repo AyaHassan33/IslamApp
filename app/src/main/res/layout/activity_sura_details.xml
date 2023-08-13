@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/home_background"
+    tools:context=".SuraDetailsActivity">
+    <ImageView
+        android:id="@+id/back_icon"
+        style="@style/backIconStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:src="@drawable/icon_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quran_text_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اسلامي"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:fontFamily="@font/elmessiri_semibold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        style="@style/QuranRecyclerViewBG"
+        android:alpha="0.6"
+        android:layout_marginTop="39dp"
+        app:layout_constraintHeight_percent="0.8"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quran_text_toolbar">
+
+        <TextView
+            android:id="@+id/sura_of_name"
+            style="@style/textSuraContentStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="6dp"
+            android:fontFamily="@font/koufibd"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="الفاتحة" />
+        <ImageView
+            android:id="@+id/icon_sura_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/icone_sura_play"
+            android:layout_marginStart="27dp"
+            app:layout_constraintStart_toEndOf="@id/sura_of_name"
+            app:layout_constraintTop_toTopOf="@id/sura_of_name"
+            app:layout_constraintBottom_toBottomOf="@+id/sura_of_name"
+            />
+
+            />
+        <View
+            android:id="@+id/line"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            style="@style/line_style"
+            android:padding="50dp"
+            app:layout_constraintWidth_percent="0.76"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sura_of_name"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/sura_content_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line"
+
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

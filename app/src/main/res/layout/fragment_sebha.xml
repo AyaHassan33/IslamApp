@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SebhaFragment">
+    tools:context=".fragments.SebhaFragment">
 
     <TextView
         android:id="@+id/text_toolbar"
@@ -22,7 +22,7 @@
         android:id="@+id/sebha"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/khatem_eltasbeh"
+        style="@style/khatem_eltasbeh_color"
         android:adjustViewBounds="true"
         app:layout_constraintWidth_percent="0.5"
         app:layout_constraintHeight_percent="0.5"
@@ -45,8 +45,7 @@
         android:id="@+id/edit_counter"
         android:layout_width="69dp"
         android:layout_height="81dp"
-        android:background="@drawable/bg_counter"
-        android:backgroundTint="@color/btn_color_gold"
+        style="@style/btn_counter_bg"
         android:alpha=".7"
         android:text="0"
         android:gravity="center"
@@ -69,7 +68,7 @@
         android:textColor="@color/white"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_theker"
-        android:backgroundTint="@color/btn_color_gold"
+        style="@style/btn_thker_bg"
         android:gravity="center"
         android:textStyle="bold"
         android:fontFamily="@font/koufibd"

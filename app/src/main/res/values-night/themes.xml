@@ -4,4 +4,67 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+    <style name="IslamiBottomNavigationStyle">
+        <item name="android:background">@color/dark_blue</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemBackground">@null</item>
+        <item name="itemIconSize">42dp</item>
+        <item name="itemIconTint">@color/bottom_navigation_color_selector_dark</item>
+        <item name="itemRippleColor">@null</item>
+        <item name="itemTextColor">@color/bottom_navigation_color_selector_dark</item>
+    </style>
+    <style name="khatem_eltasbeh_color">
+        <item name="android:src">@drawable/khatem_eltasbeh_darkmood</item>
+    </style>
+    <style name="btn_counter_bg">
+        <item name="android:background">@drawable/bg_counter</item>
+        <item name="android:backgroundTint">@color/dark_blue</item>
+        <item name="android:textColor">@color/color_yellow</item>
+    </style>
+    <style name="btn_thker_bg">
+        <item name="android:backgroundTint">@color/color_yellow</item>
+    </style>
+    <style name="radio_icon_bg">
+        <item name="android:tint">@color/color_yellow</item>
+    </style>
+
+
+    <style name="textViewStyle">
+        <item name="android:textColor">@color/colorWhite2</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="home_background">
+        <item name="android:background">@drawable/bg_dark</item>
+    </style>
+
+    <style name="QuranTextViewStyle">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/dthuluth</item>
+    </style>
+
+    <style name="QuranRecyclerViewBG">
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <style name="backIconStyle">
+        <item name="android:tint">@color/colorWhite2</item>
+    </style>
+    <style name="SplashBG">
+        <item name="android:background">@drawable/splash_dark</item>
+    </style>
+    <style name="line_style">
+        <item name="android:background">@color/color_yellow</item>
+    </style>
+    <style name="icone_sura_play">
+        <item name="android:src">@drawable/ic_sura_play</item>
+        <item name="android:tint">@color/color_yellow</item>
+    </style>
+    <style name="textSuraContentStyle">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>

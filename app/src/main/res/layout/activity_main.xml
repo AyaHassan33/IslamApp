@@ -16,9 +16,6 @@
        style="@style/IslamiBottomNavigationStyle"
        app:menu="@menu/bottom_navigation_view_menu"
        app:itemIconSize="42dp"
-       app:itemActiveIndicatorStyle="@null"
-       app:itemIconTint="@color/bottom_navigation_color_selector"
-       app:itemTextColor="@color/bottom_navigation_color_selector"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintBottom_toBottomOf="parent"
        />

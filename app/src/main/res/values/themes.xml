@@ -8,6 +8,65 @@
     <style name="IslamiBottomNavigationStyle">
         <item name="android:background">@color/btn_color_gold</item>
         <item name="itemIconSize">36dp</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemBackground">@null</item>
+        <item name="itemIconTint">@color/bottom_navigation_color_selector</item>
+        <item name="itemRippleColor">@null</item>
+        <item name="itemTextColor">@color/bottom_navigation_color_selector</item>
+    </style>
+    <style name="khatem_eltasbeh_color">
+        <item name="android:src">@drawable/khatem_eltasbeh</item>
+    </style>
+    <style name="btn_counter_bg">
+        <item name="android:background">@drawable/bg_counter</item>
+        <item name="android:backgroundTint">@color/btn_color_gold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="btn_thker_bg">
+        <item name="android:backgroundTint">@color/btn_color_gold</item>
+    </style>
+    <style name="radio_icon_bg">
+        <item name="android:tint">@color/btn_color_gold</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textColor">@color/color_black2</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="home_background">
+        <item name="android:background">@drawable/bg</item>
+    </style>
+
+    <style name="QuranTextViewStyle">
+        <item name="android:textColor">@color/color_black2</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/dthuluth</item>
+    </style>
+
+    <style name="QuranRecyclerViewBG">
+        <item name="android:background">@drawable/sura_details_bg</item>
+
+
+    </style>
+
+    <style name="SplashBG">
+        <item name="android:background">@drawable/splash_screen</item>
+    </style>
+
+
+    <style name="backIconStyle">
+        <item name="android:tint">@null</item>
+    </style>
+    <style name="line_style">
+        <item name="android:background">@color/btn_color_gold</item>
+    </style>
+    <style name="icone_sura_play">
+        <item name="android:src">@drawable/ic_sura_play</item>
+    </style>
+    <style name="textSuraContentStyle">
+        <item name="android:textColor">@color/color_black2</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="Theme.IslamApp" parent="Base.Theme.IslamApp" />
