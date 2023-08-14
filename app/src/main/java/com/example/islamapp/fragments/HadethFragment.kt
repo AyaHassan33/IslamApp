@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.islamapp.Constants
 import com.example.islamapp.HadethDetailsActivity
 
 import com.example.islamapp.R
@@ -40,6 +41,8 @@ class HadethFragment : Fragment() {
         adapter.onHadethClickListener=object:OnHadethClickListener{
             override fun onHadethClick(hadethData: HadethData, position: Int) {
                 val intent = Intent(requireActivity(), HadethDetailsActivity::class.java)
+                intent.putExtra(Constants.HADETH_NAME_KEY,hadethData.title)
+                intent.putExtra(Constants.HADETH_CONTENT_KEY,hadethData.hadethContent?.toTypedArray())
                 startActivity(intent)
 
             }

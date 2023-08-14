@@ -64,8 +64,6 @@
             app:layout_constraintTop_toTopOf="@id/sura_of_name"
             app:layout_constraintBottom_toBottomOf="@+id/sura_of_name"
             />
-
-            />
         <View
             android:id="@+id/line"
             android:layout_width="0dp"
