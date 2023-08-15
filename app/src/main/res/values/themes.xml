@@ -69,6 +69,9 @@
         <item name="android:textColor">@color/color_black2</item>
         <item name="android:textSize">20sp</item>
     </style>
+    <style name="btn_mood">
+        <item name="android:src">@drawable/ic_night_mood</item>
+    </style>
 
     <style name="Theme.IslamApp" parent="Base.Theme.IslamApp" />
 </resources>

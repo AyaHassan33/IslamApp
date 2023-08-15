@@ -3,6 +3,7 @@
     <style name="Base.Theme.IslamApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:colorPrimaryDark">@color/dark_blue</item>
     </style>
     <style name="IslamiBottomNavigationStyle">
         <item name="android:background">@color/dark_blue</item>
@@ -66,6 +67,9 @@
     <style name="textSuraContentStyle">
         <item name="android:textColor">@color/color_yellow</item>
         <item name="android:textSize">20sp</item>
+    </style>
+    <style name="btn_mood">
+        <item name="android:src">@drawable/ic_light_mode</item>
     </style>
 
 </resources>
